@@ -4,7 +4,6 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
-
 void error_handler(char *message);
 
 int main(int argc, char *argv[])

@@ -4,11 +4,10 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
-
 void error_handler(char *message);
 
 int main(int argc, char *argv[])
-{
+{ 
     int sock;
     struct sockaddr_in serv_addr;
     char message[30];
